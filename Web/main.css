@@ -1,0 +1,125 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    background-color: #FDFDFD;
+  }
+  
+  div, input, a, button, textarea, ul, li {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 100%;
+    width: 760px;
+    margin: 0 auto;
+  }
+  
+  #reviews {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #EEE;
+    border-radius: 2px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.1);
+    background-color: #fff;
+    min-height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #reviews li {
+    padding: 10px;
+    border: 1px solid #EEE;
+    border-bottom: none;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  
+  input[type="text"],
+  textarea {
+    border: 1px solid #EEE;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.1);
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  .header {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .header h1,
+  .header h4 {
+    font-weight: normal;
+    margin: 10px 0;
+  }
+  
+  .header img {
+    border-radius: 50%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1),0 1px 1px rgba(0,0,0,.1);
+  }
+  #loginbox{
+    background-color: #1992b7;
+    width: 380px;
+    height: 260px;
+    margin: 140px auto 0px;
+    border-radius: 5px;
+  }
+  #loginboxinterno{
+    width: 360px;
+    height: 240px;
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    overflow: hidden;
+  }
+  #loginboxlabel{
+    background-color: rgb(212, 210, 207);
+    height: 45px;
+    text-align: center;
+    font:bold 14px/45px sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #bfc3c5;
+    box-shadow: 1px 0px 3px #dedede;
+    color: #555555;
+    text-shadow: 1px 0px 1px white;
+  }
+  .inputdiv{
+    margin:20px;
+    padding: 5px;
+    background-color: #f2f5f7;
+    border-radius: 3px;
+  }
+  .inputdiv input{
+    width: 310px;
+    height: 35px;
+    padding: 5px;
+    font: normal 13px sans-serif;
+    color: #aeaeae;
+    border-radius: 3px;
+    border: 1px solid #bfc4c6;
+    outline: none;
+  }
+  .inputdiv:hover{
+    background-color: #c4e2f7;    
+  }
+  .inputdiv:hover input{
+    border-color: #7dc6dd;
+  }
+
+  #inputsenha{
+    margin-top: -10px;
+    padding: 5px;
+  }
+
+  

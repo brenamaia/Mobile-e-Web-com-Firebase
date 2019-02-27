@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Firebase trabalho SD</title>
+    <link rel = "icon" href="http://outsourcing.solutekcolombia.com/images/software_as_a_service_colombia.png" type = "image/x-icon">
+    <link rel = "shortcut icon" href="http://outsourcing.solutekcolombia.com/images/software_as_a_service_colombia.png" type = "image/x-icon">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class='container'>
+      <div class='header'>
+        <img src="http://outsourcing.solutekcolombia.com/images/software_as_a_service_colombia.png" alt="">
+        <h1>Cadastro de atividades</h1>
+        <h4>Insira os dados da atividade</h4>
+      </div>
+      <h2></h2>
+      <h4>Nome do Trabalho</h4>
+        <form id='reviewForm'>
+        <input type="hidden" id='hiddenId' />
+        <input type="text" id='nome' />
+        <br/>
+      <h4>Nome do Autor</h4>
+        <form id='reviewForm'>
+        <input type="hidden" id='hiddenId' />
+        <input type="text" id='autor' />
+        <br/>
+      <h4>Linguagem de programação</h4>
+        <form id='reviewForm'>
+        <input type="hidden" id='hiddenId' />
+        <input type="text" id='linguagem' />
+        <br/>
+      <h4>Endereço no git-hub</h4>
+        <form id='reviewForm'>
+        <input type="hidden" id='hiddenId' />
+        <input type="text" id='enderecoGit' />
+        <br/>
+      <h4>Usuário</h4>
+        <form id='reviewForm'>
+        <input type="hidden" id='hiddenId' />
+        <input type="text" id='userGit' />
+        <br/>
+      <h4>Senha</h4>
+        <form id='reviewForm'>
+        <input type="hidden" id='hiddenId' />
+        <input type="text" id='senhaGit' />
+        <br/>  
+        <button type='submit'>Submeter atividade</button>
+        <button onclick="logout()">Logout</button>
+      </form>
+      <br/>
+      <h4>Atividades cadastradas</h4>
+      <ul id='reviews'></ul>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script src="main.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </body>
+</html>

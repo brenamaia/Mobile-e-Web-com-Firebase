@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+
+    <item
+        android:id="@+id/menu_voltarEd"
+        android:title="Voltar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuEditarEd"
+        android:title="editar"
+        android:icon="@drawable/alt_trab"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_excluir"
+        android:title="excluir"
+        android:icon="@drawable/del_trab"
+        app:showAsAction="always" />
+
+
+</menu>

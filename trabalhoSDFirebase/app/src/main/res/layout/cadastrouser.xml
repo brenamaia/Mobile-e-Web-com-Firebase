@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <EditText
+        android:id="@+id/emailCad"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="58dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/senhaCad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEmailCad2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_cad"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="89dp"
+        android:text="Cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/senhaCad"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/senhaCad"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="91dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailCad"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textSenhaCad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="279dp"
+        android:text="Senha:"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/senhaCad"
+        app:layout_constraintTop_toBottomOf="@+id/textEmailCad"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textEmailCad"
+        android:layout_width="62dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="59dp"
+        android:text="Email: "
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textSenhaCad"
+        app:layout_constraintStart_toStartOf="@+id/emailCad"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textEmailCad2"
+        android:layout_width="122dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="59dp"
+        android:text="Cadastre-se"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/emailCad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

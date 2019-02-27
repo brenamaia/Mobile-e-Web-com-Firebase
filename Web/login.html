@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset=utf-8/>
+    <title>Login</title>
+    <link rel = "icon" href="http://outsourcing.solutekcolombia.com/images/software_as_a_service_colombia.png" type = "image/x-icon">
+    <link rel = "shortcut icon" href="http://outsourcing.solutekcolombia.com/images/software_as_a_service_colombia.png" type = "image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div id="login_div" class="main-div">
+      <h3>Cadastro de Trabalhos de SD</h3>
+      <input type="email" placeholder="Email..." id="email_field" />
+      <input type="password" placeholder="Password..." id="password_field" />
+
+      <button onclick="login()">Login </button>
+    </div>
+
+    <div id="user_div" class="loggedin-div">
+    </div>
+    
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>

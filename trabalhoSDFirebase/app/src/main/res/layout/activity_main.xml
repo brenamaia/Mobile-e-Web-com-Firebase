@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textBV"
+        android:layout_width="105dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="104dp"
+        android:text="Bem-vindo!"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_cad"
+        android:layout_width="211dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="25dp"
+        android:text="Cadastrar"
+        app:layout_constraintBottom_toTopOf="@+id/btn_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBV"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="211dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="203dp"
+        android:text="Listar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cad"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

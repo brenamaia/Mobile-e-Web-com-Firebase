@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textSenhaLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="Senha:"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/senhaLogin"
+        app:layout_constraintStart_toStartOf="@+id/senhaLogin"
+        app:layout_constraintTop_toBottomOf="@+id/textEmailLogin"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textEmailLogin"
+        android:layout_width="62dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="81dp"
+        android:text="Email: "
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textSenhaLogin"
+        app:layout_constraintStart_toStartOf="@+id/emailLogin"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="214dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/senhaLogin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="259dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSenhaLogin"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="126dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="108dp"
+        android:text="Entrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailLogin"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "480914949946",
+    "firebase_url": "https://trabalho-sd-f1812.firebaseio.com",
+    "project_id": "trabalho-sd-f1812",
+    "storage_bucket": "trabalho-sd-f1812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480914949946:android:5300c1a9a9d00034",
+        "android_client_info": {
+          "package_name": "com.example.pasid.trabalhosdfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480914949946-h6or42nrescpetikt1f01hbrrh0uesmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pasid.trabalhosdfirebase",
+            "certificate_hash": "0973bbafe43c6922f03caa301e9c382e8df85306"
+          }
+        },
+        {
+          "client_id": "480914949946-iedrbcvl75j5r4mpg2jm8bd4gdc64653.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyROUZfV49F20W46_qxjBi44DtZo6NiVk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480914949946-iedrbcvl75j5r4mpg2jm8bd4gdc64653.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
